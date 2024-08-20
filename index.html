@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura Interativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aventura na Floresta</h1>
+        <p id="description">Você está na entrada de uma floresta sinistra. O que deseja fazer?</p>
+        <div id="options">
+            <button onclick="choosePath('home')">Voltar para casa</button>
+            <button onclick="choosePath('forest')">Ir para a floresta escura</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
